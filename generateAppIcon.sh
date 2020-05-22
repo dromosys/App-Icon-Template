@@ -1,8 +1,6 @@
-#!/bin/bash
-
 INK=/usr/bin/inkscape
 
-if [[ -z "$1" ]] 
+if [[ -z "$1" ]]
 then
 	echo "SVG file needed."
 	exit;
@@ -45,7 +43,7 @@ $INK -z -D -e "$BASE-72.png" -f 	$SVG -w 72 -h 72
 $INK -z -D -e "$BASE-72@2x.png" -f 	$SVG -w 144 -h 144
 
 # iPad App iOS 7  76pt
-$INK -z -D -e "$BASE-76.png" -f 	$SVG -w 76 -h 76 
+$INK -z -D -e "$BASE-76.png" -f 	$SVG -w 76 -h 76
 $INK -z -D -e "$BASE-76@2x.png" -f 	$SVG -w 152 -h 152
 
 # iPad Pro App iOS 9-11  83.5pt
