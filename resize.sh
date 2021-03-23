@@ -53,7 +53,7 @@ $INK -z -D --export-filename="$BASE-83_5@2x.png"  	$SVG -w 167 -h 167
 
 #iTunes Artwork
 $INK -z -D --export-filename="$BASE-512.png"  	$SVG -w 512 -h 512
-$INK -z -D --export-filename= "$BASE-1024.png"  	$SVG -w 1024 -h 1024
+$INK -z -D --export-filename="$BASE-1024.png"  	$SVG -w 1024 -h 1024
 
 cp "$BASE-512.png" iTunesArtwork.png
 cp "$BASE-1024.png" iTunesArtwork@2x.png
