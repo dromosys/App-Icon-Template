@@ -1,4 +1,4 @@
-INK=/usr/bin/inkscape
+INK=/usr/local/bin/inkscape
 
 if [[ -z "$1" ]]
 then
