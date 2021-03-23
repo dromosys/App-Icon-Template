@@ -27,14 +27,19 @@ $INK -z -D --export-filename="$BASE-40@3x.png"       $SVG -w 120 -h 120
 
 # iPhone App iOS 7 29pt
 $INK -z -D --export-filename="$BASE-58.png"  	$SVG -w 58 -h 58
+$INK -z -D --export-filename="$BASE-87@3x.png"  	$SVG -w 87 -h 87
 
 # iPhone App iOS 5,6 57pt
 $INK -z -D --export-filename="$BASE-57.png"  	$SVG -w 57 -h 57
 $INK -z -D --export-filename="$BASE-57@2x.png"  	$SVG -w 114 -h 114
 
+# iPhone App iOS 7 40pt
+$INK -z -D --export-filename="$BASE-80@2x.png"  	$SVG -w 80 -h 80
+$INK -z -D --export-filename="$BASE-120@3x.png"  	$SVG -w 120 -h 120
+
 # iPhone App iOS 7,8 60pt
-$INK -z -D --export-filename="$BASE-60@2x.png"  	$SVG -w 120 -h 120
-$INK -z -D --export-filename="$BASE-60@3x.png"       $SVG -w 180 -h 180
+$INK -z -D --export-filename="$BASE-120@2x.png"  	$SVG -w 120 -h 120
+$INK -z -D --export-filename="$BASE-180@3x.png"       $SVG -w 180 -h 180
 
 # iPad Spotlight iOS 7 40pt
 $INK -z -D --export-filename="$BASE-40.png"  	$SVG -w 40 -h 40
