@@ -38,6 +38,7 @@ $INK -z -D --export-filename="$BASE-80@2x.png"  	$SVG -w 80 -h 80
 $INK -z -D --export-filename="$BASE-120@3x.png"  	$SVG -w 120 -h 120
 
 # iPhone App iOS 7,8 60pt
+$INK -z -D --export-filename="$BASE-58@2x.png"  	$SVG -w 58 -h 58
 $INK -z -D --export-filename="$BASE-120@2x.png"  	$SVG -w 120 -h 120
 $INK -z -D --export-filename="$BASE-180@3x.png"       $SVG -w 180 -h 180
 
@@ -54,14 +55,14 @@ $INK -z -D --export-filename="$BASE-72@2x.png"  	$SVG -w 144 -h 144
 
 # iPad App iOS 7  76pt
 $INK -z -D --export-filename="$BASE-76.png"  	$SVG -w 76 -h 76 
-$INK -z -D --export-filename="$BASE-76@2x.png"  	$SVG -w 152 -h 152
+$INK -z -D --export-filename="$BASE-152@2x.png"  	$SVG -w 152 -h 152
 
 # iPad Pro App iOS 9-11  83.5pt
-$INK -z -D --export-filename="$BASE-83_5@2x.png"  	$SVG -w 167 -h 167
+$INK -z -D --export-filename="$BASE-167@2x.png"  	$SVG -w 167 -h 167
 
 #iTunes Artwork
 $INK -z -D --export-filename="$BASE-512.png"  	$SVG -w 512 -h 512
-$INK -z -D --export-filename="$BASE-1024.png"  	$SVG -w 1024 -h 1024
+$INK -z -D --export-filename="$BASE-1024.png" --export-background-opacity=255 	$SVG -w 1024 -h 1024
 
 cp "$BASE-512.png" iTunesArtwork.png
 cp "$BASE-1024.png" iTunesArtwork@2x.png
