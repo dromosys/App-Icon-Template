@@ -25,6 +25,9 @@ $INK -z -D --export-filename="$BASE-29@3x.png"       $SVG -w 87 -h 87
 $INK -z -D --export-filename="$BASE-40@2x.png"  	$SVG -w 80 -h 80
 $INK -z -D --export-filename="$BASE-40@3x.png"       $SVG -w 120 -h 120
 
+# iPhone App iOS 7 29pt
+$INK -z -D --export-filename="$BASE-58.png"  	$SVG -w 58 -h 58
+
 # iPhone App iOS 5,6 57pt
 $INK -z -D --export-filename="$BASE-57.png"  	$SVG -w 57 -h 57
 $INK -z -D --export-filename="$BASE-57@2x.png"  	$SVG -w 114 -h 114
